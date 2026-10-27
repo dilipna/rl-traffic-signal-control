@@ -79,13 +79,13 @@ def main():
     report=evaluate(policy,protocol)
     args.output.mkdir(parents=True)
     for name,value in [("policy",policy),("training",curve),("evaluation",report),("protocol",protocol)]:
-        (args.output/(name+".json")).write_text(json.dumps(value,indent=2,allow_nan=False)+"\n",encoding="utf-8")
+        (args.output/(name+".json")).write_text(json.dumps(value,indent=2,allow_nan=False)+"\n",encoding="utf-8", newline="\n")
     parity=[]
     for scenario in protocol["evaluation_scenarios"]:
         for c in protocol["controllers"]:
             tape=make_tape(scenario,123,240)
             parity.append({"scenario":scenario,"seed":123,"controller":c,**rollout(tape,c,policy)})
-    (args.output/"parity.json").write_text(json.dumps(parity,separators=(",", ":"))+"\n",encoding="utf-8")
+    (args.output/"parity.json").write_text(json.dumps(parity,separators=(",", ":"))+"\n",encoding="utf-8", newline="\n")
     print("Policy states:",len(policy),"| evaluation runs:",len(report["runs"]))
     for row in report["summary"]:
         print(row["name"],"Q-fixed mean queue",round(row["qMinusFixedMeanQueue"],2),row["conclusion"])

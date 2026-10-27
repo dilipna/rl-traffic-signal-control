@@ -35,3 +35,22 @@ test("conservation and clearance across all controllers", () => {
     assert.ok(result.frames.every((f) => !f.allRed || f.served === 0));
   }
 });
+
+test("all public evidence hashes match raw checkout bytes", async () => {
+  const { createHash } = await import("node:crypto");
+  const manifest = JSON.parse(
+    await readFile(
+      new URL("../public/evidence/artifacts.json", import.meta.url),
+    ),
+  );
+  for (const [name, expected] of Object.entries(manifest.files)) {
+    const raw = await readFile(
+      new URL("../public/evidence/" + name, import.meta.url),
+    );
+    assert.equal(
+      createHash("sha256").update(raw).digest("hex"),
+      expected,
+      name,
+    );
+  }
+});

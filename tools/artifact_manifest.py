@@ -13,5 +13,5 @@ def main():
     if args.check:
         assert result==json.loads((ROOT/"artifacts.json").read_text()),"Evidence bytes changed"
         print("All five public evidence hashes match")
-    else:(ROOT/"artifacts.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
+    else:(ROOT/"artifacts.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8", newline="\n")
 if __name__=="__main__":main()

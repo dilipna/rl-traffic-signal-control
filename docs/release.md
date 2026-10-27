@@ -14,3 +14,5 @@ The public source, PR, Actions and hosting are not authorized by a generic local
 Browser execution is GitHub-only. No owner desktop/browser access. The first deployment has no prior production to roll back to: keep the new site unpromoted if staging fails; do not overwrite another site to manufacture a rollback. After a successful first deployment, retain it as the next release's rollback reference.
 
 If using Vercel Build Output API for static artifacts, retain web/vercel.json header behavior in .vercel/output/config.json, copy only the verified dist assets, target the same newly approved project and verify source/evidence identity on the hosted URL. No hosting authentication or team policy changes to bypass preview protection.
+
+Public evidence is UTF-8/LF at generation and checkout. Hashes are raw-byte hashes, not normalized approximations. Compare source.zip entries to the manifest before release; Windows working-tree checks alone are insufficient.
