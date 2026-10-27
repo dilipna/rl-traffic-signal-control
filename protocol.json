@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "frozen_before_training": true,
+  "horizon": 240,
+  "episodes": 450,
+  "training_scenarios": [
+    "balanced",
+    "north-rush",
+    "tidal"
+  ],
+  "training_tape_seeds": [
+    0,
+    449
+  ],
+  "exploration_seed": 9182,
+  "evaluation_tape_seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10018,
+    10019
+  ],
+  "evaluation_scenarios": [
+    "balanced",
+    "north-rush",
+    "tidal",
+    "saturated",
+    "incident"
+  ],
+  "controllers": [
+    "fixed",
+    "queue",
+    "q"
+  ],
+  "alpha": 0.12,
+  "gamma": 0.95,
+  "epsilon_start": 1,
+  "epsilon_end": 0.05,
+  "reward": "negative end-of-tick queue sum minus 30 per dropped vehicle minus 2 per switch",
+  "endpoint": "paired mean queue difference Q minus fixed; report all scenarios, drops, throughput and residual queues; negative difference favors Q",
+  "uncertainty": "1000 deterministic paired-seed bootstrap resamples, percentile 95% interval; no multiple-comparison or real-world guarantee",
+  "selection": "No model/hyperparameter selection using evaluation seeds; one training run; simple queue baseline is retained even if it wins",
+  "limits": [
+    "synthetic two-road model",
+    "no turning, pedestrian, network or real-road calibration",
+    "served waiting time excludes unfinished and dropped vehicles; report remaining and dropped separately",
+    "single trained policy does not measure training-seed variance"
+  ]
+}

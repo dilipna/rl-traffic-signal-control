@@ -1,0 +1,2252 @@
+[
+  {
+    "episode": 0,
+    "scenario": "balanced",
+    "reward": -2623
+  },
+  {
+    "episode": 1,
+    "scenario": "north-rush",
+    "reward": -13466
+  },
+  {
+    "episode": 2,
+    "scenario": "tidal",
+    "reward": -12387
+  },
+  {
+    "episode": 3,
+    "scenario": "balanced",
+    "reward": -2711
+  },
+  {
+    "episode": 4,
+    "scenario": "north-rush",
+    "reward": -14393
+  },
+  {
+    "episode": 5,
+    "scenario": "tidal",
+    "reward": -10542
+  },
+  {
+    "episode": 6,
+    "scenario": "balanced",
+    "reward": -2369
+  },
+  {
+    "episode": 7,
+    "scenario": "north-rush",
+    "reward": -12132
+  },
+  {
+    "episode": 8,
+    "scenario": "tidal",
+    "reward": -10533
+  },
+  {
+    "episode": 9,
+    "scenario": "balanced",
+    "reward": -2580
+  },
+  {
+    "episode": 10,
+    "scenario": "north-rush",
+    "reward": -14883
+  },
+  {
+    "episode": 11,
+    "scenario": "tidal",
+    "reward": -12828
+  },
+  {
+    "episode": 12,
+    "scenario": "balanced",
+    "reward": -2340
+  },
+  {
+    "episode": 13,
+    "scenario": "north-rush",
+    "reward": -13281
+  },
+  {
+    "episode": 14,
+    "scenario": "tidal",
+    "reward": -11876
+  },
+  {
+    "episode": 15,
+    "scenario": "balanced",
+    "reward": -3024
+  },
+  {
+    "episode": 16,
+    "scenario": "north-rush",
+    "reward": -12671
+  },
+  {
+    "episode": 17,
+    "scenario": "tidal",
+    "reward": -9452
+  },
+  {
+    "episode": 18,
+    "scenario": "balanced",
+    "reward": -1794
+  },
+  {
+    "episode": 19,
+    "scenario": "north-rush",
+    "reward": -13920
+  },
+  {
+    "episode": 20,
+    "scenario": "tidal",
+    "reward": -11296
+  },
+  {
+    "episode": 21,
+    "scenario": "balanced",
+    "reward": -2749
+  },
+  {
+    "episode": 22,
+    "scenario": "north-rush",
+    "reward": -12706
+  },
+  {
+    "episode": 23,
+    "scenario": "tidal",
+    "reward": -8456
+  },
+  {
+    "episode": 24,
+    "scenario": "balanced",
+    "reward": -2515
+  },
+  {
+    "episode": 25,
+    "scenario": "north-rush",
+    "reward": -13644
+  },
+  {
+    "episode": 26,
+    "scenario": "tidal",
+    "reward": -11498
+  },
+  {
+    "episode": 27,
+    "scenario": "balanced",
+    "reward": -2204
+  },
+  {
+    "episode": 28,
+    "scenario": "north-rush",
+    "reward": -12650
+  },
+  {
+    "episode": 29,
+    "scenario": "tidal",
+    "reward": -10841
+  },
+  {
+    "episode": 30,
+    "scenario": "balanced",
+    "reward": -2206
+  },
+  {
+    "episode": 31,
+    "scenario": "north-rush",
+    "reward": -13333
+  },
+  {
+    "episode": 32,
+    "scenario": "tidal",
+    "reward": -11940
+  },
+  {
+    "episode": 33,
+    "scenario": "balanced",
+    "reward": -2769
+  },
+  {
+    "episode": 34,
+    "scenario": "north-rush",
+    "reward": -15048
+  },
+  {
+    "episode": 35,
+    "scenario": "tidal",
+    "reward": -10460
+  },
+  {
+    "episode": 36,
+    "scenario": "balanced",
+    "reward": -2396
+  },
+  {
+    "episode": 37,
+    "scenario": "north-rush",
+    "reward": -11052
+  },
+  {
+    "episode": 38,
+    "scenario": "tidal",
+    "reward": -9208
+  },
+  {
+    "episode": 39,
+    "scenario": "balanced",
+    "reward": -2428
+  },
+  {
+    "episode": 40,
+    "scenario": "north-rush",
+    "reward": -12857
+  },
+  {
+    "episode": 41,
+    "scenario": "tidal",
+    "reward": -10648
+  },
+  {
+    "episode": 42,
+    "scenario": "balanced",
+    "reward": -2044
+  },
+  {
+    "episode": 43,
+    "scenario": "north-rush",
+    "reward": -12916
+  },
+  {
+    "episode": 44,
+    "scenario": "tidal",
+    "reward": -12165
+  },
+  {
+    "episode": 45,
+    "scenario": "balanced",
+    "reward": -2665
+  },
+  {
+    "episode": 46,
+    "scenario": "north-rush",
+    "reward": -14051
+  },
+  {
+    "episode": 47,
+    "scenario": "tidal",
+    "reward": -10503
+  },
+  {
+    "episode": 48,
+    "scenario": "balanced",
+    "reward": -2485
+  },
+  {
+    "episode": 49,
+    "scenario": "north-rush",
+    "reward": -13581
+  },
+  {
+    "episode": 50,
+    "scenario": "tidal",
+    "reward": -10336
+  },
+  {
+    "episode": 51,
+    "scenario": "balanced",
+    "reward": -2216
+  },
+  {
+    "episode": 52,
+    "scenario": "north-rush",
+    "reward": -13506
+  },
+  {
+    "episode": 53,
+    "scenario": "tidal",
+    "reward": -8916
+  },
+  {
+    "episode": 54,
+    "scenario": "balanced",
+    "reward": -2731
+  },
+  {
+    "episode": 55,
+    "scenario": "north-rush",
+    "reward": -13506
+  },
+  {
+    "episode": 56,
+    "scenario": "tidal",
+    "reward": -11446
+  },
+  {
+    "episode": 57,
+    "scenario": "balanced",
+    "reward": -2938
+  },
+  {
+    "episode": 58,
+    "scenario": "north-rush",
+    "reward": -13533
+  },
+  {
+    "episode": 59,
+    "scenario": "tidal",
+    "reward": -9656
+  },
+  {
+    "episode": 60,
+    "scenario": "balanced",
+    "reward": -2541
+  },
+  {
+    "episode": 61,
+    "scenario": "north-rush",
+    "reward": -13401
+  },
+  {
+    "episode": 62,
+    "scenario": "tidal",
+    "reward": -8675
+  },
+  {
+    "episode": 63,
+    "scenario": "balanced",
+    "reward": -2049
+  },
+  {
+    "episode": 64,
+    "scenario": "north-rush",
+    "reward": -13340
+  },
+  {
+    "episode": 65,
+    "scenario": "tidal",
+    "reward": -10656
+  },
+  {
+    "episode": 66,
+    "scenario": "balanced",
+    "reward": -3067
+  },
+  {
+    "episode": 67,
+    "scenario": "north-rush",
+    "reward": -14192
+  },
+  {
+    "episode": 68,
+    "scenario": "tidal",
+    "reward": -12350
+  },
+  {
+    "episode": 69,
+    "scenario": "balanced",
+    "reward": -3069
+  },
+  {
+    "episode": 70,
+    "scenario": "north-rush",
+    "reward": -12154
+  },
+  {
+    "episode": 71,
+    "scenario": "tidal",
+    "reward": -11141
+  },
+  {
+    "episode": 72,
+    "scenario": "balanced",
+    "reward": -1884
+  },
+  {
+    "episode": 73,
+    "scenario": "north-rush",
+    "reward": -12179
+  },
+  {
+    "episode": 74,
+    "scenario": "tidal",
+    "reward": -12367
+  },
+  {
+    "episode": 75,
+    "scenario": "balanced",
+    "reward": -1959
+  },
+  {
+    "episode": 76,
+    "scenario": "north-rush",
+    "reward": -14669
+  },
+  {
+    "episode": 77,
+    "scenario": "tidal",
+    "reward": -9901
+  },
+  {
+    "episode": 78,
+    "scenario": "balanced",
+    "reward": -2349
+  },
+  {
+    "episode": 79,
+    "scenario": "north-rush",
+    "reward": -12468
+  },
+  {
+    "episode": 80,
+    "scenario": "tidal",
+    "reward": -9549
+  },
+  {
+    "episode": 81,
+    "scenario": "balanced",
+    "reward": -2825
+  },
+  {
+    "episode": 82,
+    "scenario": "north-rush",
+    "reward": -13964
+  },
+  {
+    "episode": 83,
+    "scenario": "tidal",
+    "reward": -12407
+  },
+  {
+    "episode": 84,
+    "scenario": "balanced",
+    "reward": -1968
+  },
+  {
+    "episode": 85,
+    "scenario": "north-rush",
+    "reward": -11698
+  },
+  {
+    "episode": 86,
+    "scenario": "tidal",
+    "reward": -9340
+  },
+  {
+    "episode": 87,
+    "scenario": "balanced",
+    "reward": -2436
+  },
+  {
+    "episode": 88,
+    "scenario": "north-rush",
+    "reward": -12866
+  },
+  {
+    "episode": 89,
+    "scenario": "tidal",
+    "reward": -13700
+  },
+  {
+    "episode": 90,
+    "scenario": "balanced",
+    "reward": -2460
+  },
+  {
+    "episode": 91,
+    "scenario": "north-rush",
+    "reward": -11684
+  },
+  {
+    "episode": 92,
+    "scenario": "tidal",
+    "reward": -11214
+  },
+  {
+    "episode": 93,
+    "scenario": "balanced",
+    "reward": -2538
+  },
+  {
+    "episode": 94,
+    "scenario": "north-rush",
+    "reward": -13177
+  },
+  {
+    "episode": 95,
+    "scenario": "tidal",
+    "reward": -9804
+  },
+  {
+    "episode": 96,
+    "scenario": "balanced",
+    "reward": -2749
+  },
+  {
+    "episode": 97,
+    "scenario": "north-rush",
+    "reward": -13435
+  },
+  {
+    "episode": 98,
+    "scenario": "tidal",
+    "reward": -8788
+  },
+  {
+    "episode": 99,
+    "scenario": "balanced",
+    "reward": -2307
+  },
+  {
+    "episode": 100,
+    "scenario": "north-rush",
+    "reward": -11600
+  },
+  {
+    "episode": 101,
+    "scenario": "tidal",
+    "reward": -10637
+  },
+  {
+    "episode": 102,
+    "scenario": "balanced",
+    "reward": -3414
+  },
+  {
+    "episode": 103,
+    "scenario": "north-rush",
+    "reward": -10577
+  },
+  {
+    "episode": 104,
+    "scenario": "tidal",
+    "reward": -9905
+  },
+  {
+    "episode": 105,
+    "scenario": "balanced",
+    "reward": -3188
+  },
+  {
+    "episode": 106,
+    "scenario": "north-rush",
+    "reward": -10499
+  },
+  {
+    "episode": 107,
+    "scenario": "tidal",
+    "reward": -12093
+  },
+  {
+    "episode": 108,
+    "scenario": "balanced",
+    "reward": -2627
+  },
+  {
+    "episode": 109,
+    "scenario": "north-rush",
+    "reward": -12402
+  },
+  {
+    "episode": 110,
+    "scenario": "tidal",
+    "reward": -9728
+  },
+  {
+    "episode": 111,
+    "scenario": "balanced",
+    "reward": -2207
+  },
+  {
+    "episode": 112,
+    "scenario": "north-rush",
+    "reward": -12053
+  },
+  {
+    "episode": 113,
+    "scenario": "tidal",
+    "reward": -10279
+  },
+  {
+    "episode": 114,
+    "scenario": "balanced",
+    "reward": -2550
+  },
+  {
+    "episode": 115,
+    "scenario": "north-rush",
+    "reward": -13404
+  },
+  {
+    "episode": 116,
+    "scenario": "tidal",
+    "reward": -7932
+  },
+  {
+    "episode": 117,
+    "scenario": "balanced",
+    "reward": -3373
+  },
+  {
+    "episode": 118,
+    "scenario": "north-rush",
+    "reward": -10389
+  },
+  {
+    "episode": 119,
+    "scenario": "tidal",
+    "reward": -10469
+  },
+  {
+    "episode": 120,
+    "scenario": "balanced",
+    "reward": -2793
+  },
+  {
+    "episode": 121,
+    "scenario": "north-rush",
+    "reward": -12257
+  },
+  {
+    "episode": 122,
+    "scenario": "tidal",
+    "reward": -11050
+  },
+  {
+    "episode": 123,
+    "scenario": "balanced",
+    "reward": -3260
+  },
+  {
+    "episode": 124,
+    "scenario": "north-rush",
+    "reward": -11932
+  },
+  {
+    "episode": 125,
+    "scenario": "tidal",
+    "reward": -11002
+  },
+  {
+    "episode": 126,
+    "scenario": "balanced",
+    "reward": -2078
+  },
+  {
+    "episode": 127,
+    "scenario": "north-rush",
+    "reward": -12771
+  },
+  {
+    "episode": 128,
+    "scenario": "tidal",
+    "reward": -11519
+  },
+  {
+    "episode": 129,
+    "scenario": "balanced",
+    "reward": -2264
+  },
+  {
+    "episode": 130,
+    "scenario": "north-rush",
+    "reward": -14685
+  },
+  {
+    "episode": 131,
+    "scenario": "tidal",
+    "reward": -10578
+  },
+  {
+    "episode": 132,
+    "scenario": "balanced",
+    "reward": -3177
+  },
+  {
+    "episode": 133,
+    "scenario": "north-rush",
+    "reward": -12554
+  },
+  {
+    "episode": 134,
+    "scenario": "tidal",
+    "reward": -9472
+  },
+  {
+    "episode": 135,
+    "scenario": "balanced",
+    "reward": -1841
+  },
+  {
+    "episode": 136,
+    "scenario": "north-rush",
+    "reward": -12937
+  },
+  {
+    "episode": 137,
+    "scenario": "tidal",
+    "reward": -9792
+  },
+  {
+    "episode": 138,
+    "scenario": "balanced",
+    "reward": -2806
+  },
+  {
+    "episode": 139,
+    "scenario": "north-rush",
+    "reward": -12184
+  },
+  {
+    "episode": 140,
+    "scenario": "tidal",
+    "reward": -10530
+  },
+  {
+    "episode": 141,
+    "scenario": "balanced",
+    "reward": -2047
+  },
+  {
+    "episode": 142,
+    "scenario": "north-rush",
+    "reward": -11105
+  },
+  {
+    "episode": 143,
+    "scenario": "tidal",
+    "reward": -9953
+  },
+  {
+    "episode": 144,
+    "scenario": "balanced",
+    "reward": -3255
+  },
+  {
+    "episode": 145,
+    "scenario": "north-rush",
+    "reward": -14749
+  },
+  {
+    "episode": 146,
+    "scenario": "tidal",
+    "reward": -10615
+  },
+  {
+    "episode": 147,
+    "scenario": "balanced",
+    "reward": -2703
+  },
+  {
+    "episode": 148,
+    "scenario": "north-rush",
+    "reward": -12024
+  },
+  {
+    "episode": 149,
+    "scenario": "tidal",
+    "reward": -9016
+  },
+  {
+    "episode": 150,
+    "scenario": "balanced",
+    "reward": -2174
+  },
+  {
+    "episode": 151,
+    "scenario": "north-rush",
+    "reward": -12946
+  },
+  {
+    "episode": 152,
+    "scenario": "tidal",
+    "reward": -10434
+  },
+  {
+    "episode": 153,
+    "scenario": "balanced",
+    "reward": -2528
+  },
+  {
+    "episode": 154,
+    "scenario": "north-rush",
+    "reward": -13258
+  },
+  {
+    "episode": 155,
+    "scenario": "tidal",
+    "reward": -11371
+  },
+  {
+    "episode": 156,
+    "scenario": "balanced",
+    "reward": -3060
+  },
+  {
+    "episode": 157,
+    "scenario": "north-rush",
+    "reward": -14567
+  },
+  {
+    "episode": 158,
+    "scenario": "tidal",
+    "reward": -9920
+  },
+  {
+    "episode": 159,
+    "scenario": "balanced",
+    "reward": -2166
+  },
+  {
+    "episode": 160,
+    "scenario": "north-rush",
+    "reward": -10790
+  },
+  {
+    "episode": 161,
+    "scenario": "tidal",
+    "reward": -10419
+  },
+  {
+    "episode": 162,
+    "scenario": "balanced",
+    "reward": -2513
+  },
+  {
+    "episode": 163,
+    "scenario": "north-rush",
+    "reward": -9019
+  },
+  {
+    "episode": 164,
+    "scenario": "tidal",
+    "reward": -11343
+  },
+  {
+    "episode": 165,
+    "scenario": "balanced",
+    "reward": -3358
+  },
+  {
+    "episode": 166,
+    "scenario": "north-rush",
+    "reward": -13122
+  },
+  {
+    "episode": 167,
+    "scenario": "tidal",
+    "reward": -10724
+  },
+  {
+    "episode": 168,
+    "scenario": "balanced",
+    "reward": -4634
+  },
+  {
+    "episode": 169,
+    "scenario": "north-rush",
+    "reward": -13073
+  },
+  {
+    "episode": 170,
+    "scenario": "tidal",
+    "reward": -10759
+  },
+  {
+    "episode": 171,
+    "scenario": "balanced",
+    "reward": -3109
+  },
+  {
+    "episode": 172,
+    "scenario": "north-rush",
+    "reward": -10670
+  },
+  {
+    "episode": 173,
+    "scenario": "tidal",
+    "reward": -8111
+  },
+  {
+    "episode": 174,
+    "scenario": "balanced",
+    "reward": -2430
+  },
+  {
+    "episode": 175,
+    "scenario": "north-rush",
+    "reward": -12681
+  },
+  {
+    "episode": 176,
+    "scenario": "tidal",
+    "reward": -10119
+  },
+  {
+    "episode": 177,
+    "scenario": "balanced",
+    "reward": -3131
+  },
+  {
+    "episode": 178,
+    "scenario": "north-rush",
+    "reward": -10972
+  },
+  {
+    "episode": 179,
+    "scenario": "tidal",
+    "reward": -9856
+  },
+  {
+    "episode": 180,
+    "scenario": "balanced",
+    "reward": -2517
+  },
+  {
+    "episode": 181,
+    "scenario": "north-rush",
+    "reward": -12187
+  },
+  {
+    "episode": 182,
+    "scenario": "tidal",
+    "reward": -9829
+  },
+  {
+    "episode": 183,
+    "scenario": "balanced",
+    "reward": -3239
+  },
+  {
+    "episode": 184,
+    "scenario": "north-rush",
+    "reward": -12519
+  },
+  {
+    "episode": 185,
+    "scenario": "tidal",
+    "reward": -9621
+  },
+  {
+    "episode": 186,
+    "scenario": "balanced",
+    "reward": -3346
+  },
+  {
+    "episode": 187,
+    "scenario": "north-rush",
+    "reward": -11762
+  },
+  {
+    "episode": 188,
+    "scenario": "tidal",
+    "reward": -9127
+  },
+  {
+    "episode": 189,
+    "scenario": "balanced",
+    "reward": -2235
+  },
+  {
+    "episode": 190,
+    "scenario": "north-rush",
+    "reward": -11993
+  },
+  {
+    "episode": 191,
+    "scenario": "tidal",
+    "reward": -9614
+  },
+  {
+    "episode": 192,
+    "scenario": "balanced",
+    "reward": -3102
+  },
+  {
+    "episode": 193,
+    "scenario": "north-rush",
+    "reward": -11746
+  },
+  {
+    "episode": 194,
+    "scenario": "tidal",
+    "reward": -5535
+  },
+  {
+    "episode": 195,
+    "scenario": "balanced",
+    "reward": -2867
+  },
+  {
+    "episode": 196,
+    "scenario": "north-rush",
+    "reward": -12936
+  },
+  {
+    "episode": 197,
+    "scenario": "tidal",
+    "reward": -9978
+  },
+  {
+    "episode": 198,
+    "scenario": "balanced",
+    "reward": -3642
+  },
+  {
+    "episode": 199,
+    "scenario": "north-rush",
+    "reward": -14834
+  },
+  {
+    "episode": 200,
+    "scenario": "tidal",
+    "reward": -8168
+  },
+  {
+    "episode": 201,
+    "scenario": "balanced",
+    "reward": -2606
+  },
+  {
+    "episode": 202,
+    "scenario": "north-rush",
+    "reward": -12045
+  },
+  {
+    "episode": 203,
+    "scenario": "tidal",
+    "reward": -6222
+  },
+  {
+    "episode": 204,
+    "scenario": "balanced",
+    "reward": -2442
+  },
+  {
+    "episode": 205,
+    "scenario": "north-rush",
+    "reward": -11662
+  },
+  {
+    "episode": 206,
+    "scenario": "tidal",
+    "reward": -10821
+  },
+  {
+    "episode": 207,
+    "scenario": "balanced",
+    "reward": -2271
+  },
+  {
+    "episode": 208,
+    "scenario": "north-rush",
+    "reward": -11151
+  },
+  {
+    "episode": 209,
+    "scenario": "tidal",
+    "reward": -8921
+  },
+  {
+    "episode": 210,
+    "scenario": "balanced",
+    "reward": -2414
+  },
+  {
+    "episode": 211,
+    "scenario": "north-rush",
+    "reward": -11964
+  },
+  {
+    "episode": 212,
+    "scenario": "tidal",
+    "reward": -7205
+  },
+  {
+    "episode": 213,
+    "scenario": "balanced",
+    "reward": -4348
+  },
+  {
+    "episode": 214,
+    "scenario": "north-rush",
+    "reward": -9905
+  },
+  {
+    "episode": 215,
+    "scenario": "tidal",
+    "reward": -7877
+  },
+  {
+    "episode": 216,
+    "scenario": "balanced",
+    "reward": -2493
+  },
+  {
+    "episode": 217,
+    "scenario": "north-rush",
+    "reward": -12033
+  },
+  {
+    "episode": 218,
+    "scenario": "tidal",
+    "reward": -9344
+  },
+  {
+    "episode": 219,
+    "scenario": "balanced",
+    "reward": -2981
+  },
+  {
+    "episode": 220,
+    "scenario": "north-rush",
+    "reward": -11058
+  },
+  {
+    "episode": 221,
+    "scenario": "tidal",
+    "reward": -7939
+  },
+  {
+    "episode": 222,
+    "scenario": "balanced",
+    "reward": -3222
+  },
+  {
+    "episode": 223,
+    "scenario": "north-rush",
+    "reward": -11127
+  },
+  {
+    "episode": 224,
+    "scenario": "tidal",
+    "reward": -6349
+  },
+  {
+    "episode": 225,
+    "scenario": "balanced",
+    "reward": -3746
+  },
+  {
+    "episode": 226,
+    "scenario": "north-rush",
+    "reward": -10927
+  },
+  {
+    "episode": 227,
+    "scenario": "tidal",
+    "reward": -10837
+  },
+  {
+    "episode": 228,
+    "scenario": "balanced",
+    "reward": -3543
+  },
+  {
+    "episode": 229,
+    "scenario": "north-rush",
+    "reward": -11154
+  },
+  {
+    "episode": 230,
+    "scenario": "tidal",
+    "reward": -10669
+  },
+  {
+    "episode": 231,
+    "scenario": "balanced",
+    "reward": -3015
+  },
+  {
+    "episode": 232,
+    "scenario": "north-rush",
+    "reward": -10180
+  },
+  {
+    "episode": 233,
+    "scenario": "tidal",
+    "reward": -9727
+  },
+  {
+    "episode": 234,
+    "scenario": "balanced",
+    "reward": -3245
+  },
+  {
+    "episode": 235,
+    "scenario": "north-rush",
+    "reward": -11500
+  },
+  {
+    "episode": 236,
+    "scenario": "tidal",
+    "reward": -7927
+  },
+  {
+    "episode": 237,
+    "scenario": "balanced",
+    "reward": -3488
+  },
+  {
+    "episode": 238,
+    "scenario": "north-rush",
+    "reward": -11202
+  },
+  {
+    "episode": 239,
+    "scenario": "tidal",
+    "reward": -6055
+  },
+  {
+    "episode": 240,
+    "scenario": "balanced",
+    "reward": -2573
+  },
+  {
+    "episode": 241,
+    "scenario": "north-rush",
+    "reward": -11613
+  },
+  {
+    "episode": 242,
+    "scenario": "tidal",
+    "reward": -5314
+  },
+  {
+    "episode": 243,
+    "scenario": "balanced",
+    "reward": -2686
+  },
+  {
+    "episode": 244,
+    "scenario": "north-rush",
+    "reward": -11435
+  },
+  {
+    "episode": 245,
+    "scenario": "tidal",
+    "reward": -9401
+  },
+  {
+    "episode": 246,
+    "scenario": "balanced",
+    "reward": -3111
+  },
+  {
+    "episode": 247,
+    "scenario": "north-rush",
+    "reward": -9303
+  },
+  {
+    "episode": 248,
+    "scenario": "tidal",
+    "reward": -6910
+  },
+  {
+    "episode": 249,
+    "scenario": "balanced",
+    "reward": -3155
+  },
+  {
+    "episode": 250,
+    "scenario": "north-rush",
+    "reward": -8229
+  },
+  {
+    "episode": 251,
+    "scenario": "tidal",
+    "reward": -9108
+  },
+  {
+    "episode": 252,
+    "scenario": "balanced",
+    "reward": -2637
+  },
+  {
+    "episode": 253,
+    "scenario": "north-rush",
+    "reward": -8991
+  },
+  {
+    "episode": 254,
+    "scenario": "tidal",
+    "reward": -9432
+  },
+  {
+    "episode": 255,
+    "scenario": "balanced",
+    "reward": -2680
+  },
+  {
+    "episode": 256,
+    "scenario": "north-rush",
+    "reward": -9717
+  },
+  {
+    "episode": 257,
+    "scenario": "tidal",
+    "reward": -9711
+  },
+  {
+    "episode": 258,
+    "scenario": "balanced",
+    "reward": -2840
+  },
+  {
+    "episode": 259,
+    "scenario": "north-rush",
+    "reward": -9413
+  },
+  {
+    "episode": 260,
+    "scenario": "tidal",
+    "reward": -9939
+  },
+  {
+    "episode": 261,
+    "scenario": "balanced",
+    "reward": -2228
+  },
+  {
+    "episode": 262,
+    "scenario": "north-rush",
+    "reward": -11078
+  },
+  {
+    "episode": 263,
+    "scenario": "tidal",
+    "reward": -9611
+  },
+  {
+    "episode": 264,
+    "scenario": "balanced",
+    "reward": -2934
+  },
+  {
+    "episode": 265,
+    "scenario": "north-rush",
+    "reward": -11959
+  },
+  {
+    "episode": 266,
+    "scenario": "tidal",
+    "reward": -8314
+  },
+  {
+    "episode": 267,
+    "scenario": "balanced",
+    "reward": -2728
+  },
+  {
+    "episode": 268,
+    "scenario": "north-rush",
+    "reward": -11528
+  },
+  {
+    "episode": 269,
+    "scenario": "tidal",
+    "reward": -7695
+  },
+  {
+    "episode": 270,
+    "scenario": "balanced",
+    "reward": -2166
+  },
+  {
+    "episode": 271,
+    "scenario": "north-rush",
+    "reward": -8930
+  },
+  {
+    "episode": 272,
+    "scenario": "tidal",
+    "reward": -8936
+  },
+  {
+    "episode": 273,
+    "scenario": "balanced",
+    "reward": -3407
+  },
+  {
+    "episode": 274,
+    "scenario": "north-rush",
+    "reward": -11038
+  },
+  {
+    "episode": 275,
+    "scenario": "tidal",
+    "reward": -9577
+  },
+  {
+    "episode": 276,
+    "scenario": "balanced",
+    "reward": -3271
+  },
+  {
+    "episode": 277,
+    "scenario": "north-rush",
+    "reward": -10147
+  },
+  {
+    "episode": 278,
+    "scenario": "tidal",
+    "reward": -9453
+  },
+  {
+    "episode": 279,
+    "scenario": "balanced",
+    "reward": -2553
+  },
+  {
+    "episode": 280,
+    "scenario": "north-rush",
+    "reward": -4810
+  },
+  {
+    "episode": 281,
+    "scenario": "tidal",
+    "reward": -6358
+  },
+  {
+    "episode": 282,
+    "scenario": "balanced",
+    "reward": -2647
+  },
+  {
+    "episode": 283,
+    "scenario": "north-rush",
+    "reward": -9944
+  },
+  {
+    "episode": 284,
+    "scenario": "tidal",
+    "reward": -6975
+  },
+  {
+    "episode": 285,
+    "scenario": "balanced",
+    "reward": -3126
+  },
+  {
+    "episode": 286,
+    "scenario": "north-rush",
+    "reward": -9984
+  },
+  {
+    "episode": 287,
+    "scenario": "tidal",
+    "reward": -7923
+  },
+  {
+    "episode": 288,
+    "scenario": "balanced",
+    "reward": -2852
+  },
+  {
+    "episode": 289,
+    "scenario": "north-rush",
+    "reward": -8248
+  },
+  {
+    "episode": 290,
+    "scenario": "tidal",
+    "reward": -11135
+  },
+  {
+    "episode": 291,
+    "scenario": "balanced",
+    "reward": -3235
+  },
+  {
+    "episode": 292,
+    "scenario": "north-rush",
+    "reward": -10484
+  },
+  {
+    "episode": 293,
+    "scenario": "tidal",
+    "reward": -5147
+  },
+  {
+    "episode": 294,
+    "scenario": "balanced",
+    "reward": -3496
+  },
+  {
+    "episode": 295,
+    "scenario": "north-rush",
+    "reward": -6086
+  },
+  {
+    "episode": 296,
+    "scenario": "tidal",
+    "reward": -6830
+  },
+  {
+    "episode": 297,
+    "scenario": "balanced",
+    "reward": -3147
+  },
+  {
+    "episode": 298,
+    "scenario": "north-rush",
+    "reward": -11914
+  },
+  {
+    "episode": 299,
+    "scenario": "tidal",
+    "reward": -9093
+  },
+  {
+    "episode": 300,
+    "scenario": "balanced",
+    "reward": -2661
+  },
+  {
+    "episode": 301,
+    "scenario": "north-rush",
+    "reward": -9796
+  },
+  {
+    "episode": 302,
+    "scenario": "tidal",
+    "reward": -6322
+  },
+  {
+    "episode": 303,
+    "scenario": "balanced",
+    "reward": -2901
+  },
+  {
+    "episode": 304,
+    "scenario": "north-rush",
+    "reward": -10682
+  },
+  {
+    "episode": 305,
+    "scenario": "tidal",
+    "reward": -7514
+  },
+  {
+    "episode": 306,
+    "scenario": "balanced",
+    "reward": -2647
+  },
+  {
+    "episode": 307,
+    "scenario": "north-rush",
+    "reward": -10876
+  },
+  {
+    "episode": 308,
+    "scenario": "tidal",
+    "reward": -6514
+  },
+  {
+    "episode": 309,
+    "scenario": "balanced",
+    "reward": -3154
+  },
+  {
+    "episode": 310,
+    "scenario": "north-rush",
+    "reward": -11752
+  },
+  {
+    "episode": 311,
+    "scenario": "tidal",
+    "reward": -5946
+  },
+  {
+    "episode": 312,
+    "scenario": "balanced",
+    "reward": -4006
+  },
+  {
+    "episode": 313,
+    "scenario": "north-rush",
+    "reward": -9307
+  },
+  {
+    "episode": 314,
+    "scenario": "tidal",
+    "reward": -8280
+  },
+  {
+    "episode": 315,
+    "scenario": "balanced",
+    "reward": -3779
+  },
+  {
+    "episode": 316,
+    "scenario": "north-rush",
+    "reward": -9471
+  },
+  {
+    "episode": 317,
+    "scenario": "tidal",
+    "reward": -4386
+  },
+  {
+    "episode": 318,
+    "scenario": "balanced",
+    "reward": -3327
+  },
+  {
+    "episode": 319,
+    "scenario": "north-rush",
+    "reward": -9024
+  },
+  {
+    "episode": 320,
+    "scenario": "tidal",
+    "reward": -6657
+  },
+  {
+    "episode": 321,
+    "scenario": "balanced",
+    "reward": -3618
+  },
+  {
+    "episode": 322,
+    "scenario": "north-rush",
+    "reward": -9026
+  },
+  {
+    "episode": 323,
+    "scenario": "tidal",
+    "reward": -4958
+  },
+  {
+    "episode": 324,
+    "scenario": "balanced",
+    "reward": -2732
+  },
+  {
+    "episode": 325,
+    "scenario": "north-rush",
+    "reward": -11254
+  },
+  {
+    "episode": 326,
+    "scenario": "tidal",
+    "reward": -6935
+  },
+  {
+    "episode": 327,
+    "scenario": "balanced",
+    "reward": -3041
+  },
+  {
+    "episode": 328,
+    "scenario": "north-rush",
+    "reward": -8597
+  },
+  {
+    "episode": 329,
+    "scenario": "tidal",
+    "reward": -6487
+  },
+  {
+    "episode": 330,
+    "scenario": "balanced",
+    "reward": -2888
+  },
+  {
+    "episode": 331,
+    "scenario": "north-rush",
+    "reward": -10015
+  },
+  {
+    "episode": 332,
+    "scenario": "tidal",
+    "reward": -7441
+  },
+  {
+    "episode": 333,
+    "scenario": "balanced",
+    "reward": -3205
+  },
+  {
+    "episode": 334,
+    "scenario": "north-rush",
+    "reward": -4765
+  },
+  {
+    "episode": 335,
+    "scenario": "tidal",
+    "reward": -8347
+  },
+  {
+    "episode": 336,
+    "scenario": "balanced",
+    "reward": -3462
+  },
+  {
+    "episode": 337,
+    "scenario": "north-rush",
+    "reward": -11578
+  },
+  {
+    "episode": 338,
+    "scenario": "tidal",
+    "reward": -5795
+  },
+  {
+    "episode": 339,
+    "scenario": "balanced",
+    "reward": -3619
+  },
+  {
+    "episode": 340,
+    "scenario": "north-rush",
+    "reward": -8941
+  },
+  {
+    "episode": 341,
+    "scenario": "tidal",
+    "reward": -2850
+  },
+  {
+    "episode": 342,
+    "scenario": "balanced",
+    "reward": -3091
+  },
+  {
+    "episode": 343,
+    "scenario": "north-rush",
+    "reward": -7830
+  },
+  {
+    "episode": 344,
+    "scenario": "tidal",
+    "reward": -6488
+  },
+  {
+    "episode": 345,
+    "scenario": "balanced",
+    "reward": -2663
+  },
+  {
+    "episode": 346,
+    "scenario": "north-rush",
+    "reward": -7366
+  },
+  {
+    "episode": 347,
+    "scenario": "tidal",
+    "reward": -6379
+  },
+  {
+    "episode": 348,
+    "scenario": "balanced",
+    "reward": -3646
+  },
+  {
+    "episode": 349,
+    "scenario": "north-rush",
+    "reward": -9690
+  },
+  {
+    "episode": 350,
+    "scenario": "tidal",
+    "reward": -8722
+  },
+  {
+    "episode": 351,
+    "scenario": "balanced",
+    "reward": -3037
+  },
+  {
+    "episode": 352,
+    "scenario": "north-rush",
+    "reward": -9188
+  },
+  {
+    "episode": 353,
+    "scenario": "tidal",
+    "reward": -4679
+  },
+  {
+    "episode": 354,
+    "scenario": "balanced",
+    "reward": -3978
+  },
+  {
+    "episode": 355,
+    "scenario": "north-rush",
+    "reward": -8993
+  },
+  {
+    "episode": 356,
+    "scenario": "tidal",
+    "reward": -4276
+  },
+  {
+    "episode": 357,
+    "scenario": "balanced",
+    "reward": -2726
+  },
+  {
+    "episode": 358,
+    "scenario": "north-rush",
+    "reward": -8892
+  },
+  {
+    "episode": 359,
+    "scenario": "tidal",
+    "reward": -4661
+  },
+  {
+    "episode": 360,
+    "scenario": "balanced",
+    "reward": -2402
+  },
+  {
+    "episode": 361,
+    "scenario": "north-rush",
+    "reward": -9495
+  },
+  {
+    "episode": 362,
+    "scenario": "tidal",
+    "reward": -6314
+  },
+  {
+    "episode": 363,
+    "scenario": "balanced",
+    "reward": -3084
+  },
+  {
+    "episode": 364,
+    "scenario": "north-rush",
+    "reward": -6513
+  },
+  {
+    "episode": 365,
+    "scenario": "tidal",
+    "reward": -6615
+  },
+  {
+    "episode": 366,
+    "scenario": "balanced",
+    "reward": -2785
+  },
+  {
+    "episode": 367,
+    "scenario": "north-rush",
+    "reward": -9185
+  },
+  {
+    "episode": 368,
+    "scenario": "tidal",
+    "reward": -6040
+  },
+  {
+    "episode": 369,
+    "scenario": "balanced",
+    "reward": -3232
+  },
+  {
+    "episode": 370,
+    "scenario": "north-rush",
+    "reward": -5912
+  },
+  {
+    "episode": 371,
+    "scenario": "tidal",
+    "reward": -6715
+  },
+  {
+    "episode": 372,
+    "scenario": "balanced",
+    "reward": -2143
+  },
+  {
+    "episode": 373,
+    "scenario": "north-rush",
+    "reward": -4057
+  },
+  {
+    "episode": 374,
+    "scenario": "tidal",
+    "reward": -7532
+  },
+  {
+    "episode": 375,
+    "scenario": "balanced",
+    "reward": -2599
+  },
+  {
+    "episode": 376,
+    "scenario": "north-rush",
+    "reward": -3019
+  },
+  {
+    "episode": 377,
+    "scenario": "tidal",
+    "reward": -4179
+  },
+  {
+    "episode": 378,
+    "scenario": "balanced",
+    "reward": -2964
+  },
+  {
+    "episode": 379,
+    "scenario": "north-rush",
+    "reward": -8621
+  },
+  {
+    "episode": 380,
+    "scenario": "tidal",
+    "reward": -5256
+  },
+  {
+    "episode": 381,
+    "scenario": "balanced",
+    "reward": -3212
+  },
+  {
+    "episode": 382,
+    "scenario": "north-rush",
+    "reward": -7082
+  },
+  {
+    "episode": 383,
+    "scenario": "tidal",
+    "reward": -6899
+  },
+  {
+    "episode": 384,
+    "scenario": "balanced",
+    "reward": -2600
+  },
+  {
+    "episode": 385,
+    "scenario": "north-rush",
+    "reward": -6977
+  },
+  {
+    "episode": 386,
+    "scenario": "tidal",
+    "reward": -5812
+  },
+  {
+    "episode": 387,
+    "scenario": "balanced",
+    "reward": -2579
+  },
+  {
+    "episode": 388,
+    "scenario": "north-rush",
+    "reward": -3897
+  },
+  {
+    "episode": 389,
+    "scenario": "tidal",
+    "reward": -8063
+  },
+  {
+    "episode": 390,
+    "scenario": "balanced",
+    "reward": -3308
+  },
+  {
+    "episode": 391,
+    "scenario": "north-rush",
+    "reward": -5081
+  },
+  {
+    "episode": 392,
+    "scenario": "tidal",
+    "reward": -5816
+  },
+  {
+    "episode": 393,
+    "scenario": "balanced",
+    "reward": -3268
+  },
+  {
+    "episode": 394,
+    "scenario": "north-rush",
+    "reward": -4805
+  },
+  {
+    "episode": 395,
+    "scenario": "tidal",
+    "reward": -8024
+  },
+  {
+    "episode": 396,
+    "scenario": "balanced",
+    "reward": -4667
+  },
+  {
+    "episode": 397,
+    "scenario": "north-rush",
+    "reward": -9179
+  },
+  {
+    "episode": 398,
+    "scenario": "tidal",
+    "reward": -3849
+  },
+  {
+    "episode": 399,
+    "scenario": "balanced",
+    "reward": -3065
+  },
+  {
+    "episode": 400,
+    "scenario": "north-rush",
+    "reward": -6002
+  },
+  {
+    "episode": 401,
+    "scenario": "tidal",
+    "reward": -7798
+  },
+  {
+    "episode": 402,
+    "scenario": "balanced",
+    "reward": -3080
+  },
+  {
+    "episode": 403,
+    "scenario": "north-rush",
+    "reward": -5062
+  },
+  {
+    "episode": 404,
+    "scenario": "tidal",
+    "reward": -6437
+  },
+  {
+    "episode": 405,
+    "scenario": "balanced",
+    "reward": -3368
+  },
+  {
+    "episode": 406,
+    "scenario": "north-rush",
+    "reward": -9429
+  },
+  {
+    "episode": 407,
+    "scenario": "tidal",
+    "reward": -4437
+  },
+  {
+    "episode": 408,
+    "scenario": "balanced",
+    "reward": -3055
+  },
+  {
+    "episode": 409,
+    "scenario": "north-rush",
+    "reward": -4398
+  },
+  {
+    "episode": 410,
+    "scenario": "tidal",
+    "reward": -3751
+  },
+  {
+    "episode": 411,
+    "scenario": "balanced",
+    "reward": -3853
+  },
+  {
+    "episode": 412,
+    "scenario": "north-rush",
+    "reward": -4001
+  },
+  {
+    "episode": 413,
+    "scenario": "tidal",
+    "reward": -4117
+  },
+  {
+    "episode": 414,
+    "scenario": "balanced",
+    "reward": -4052
+  },
+  {
+    "episode": 415,
+    "scenario": "north-rush",
+    "reward": -5012
+  },
+  {
+    "episode": 416,
+    "scenario": "tidal",
+    "reward": -3091
+  },
+  {
+    "episode": 417,
+    "scenario": "balanced",
+    "reward": -3268
+  },
+  {
+    "episode": 418,
+    "scenario": "north-rush",
+    "reward": -5678
+  },
+  {
+    "episode": 419,
+    "scenario": "tidal",
+    "reward": -5108
+  },
+  {
+    "episode": 420,
+    "scenario": "balanced",
+    "reward": -2819
+  },
+  {
+    "episode": 421,
+    "scenario": "north-rush",
+    "reward": -3635
+  },
+  {
+    "episode": 422,
+    "scenario": "tidal",
+    "reward": -4903
+  },
+  {
+    "episode": 423,
+    "scenario": "balanced",
+    "reward": -3768
+  },
+  {
+    "episode": 424,
+    "scenario": "north-rush",
+    "reward": -4874
+  },
+  {
+    "episode": 425,
+    "scenario": "tidal",
+    "reward": -3568
+  },
+  {
+    "episode": 426,
+    "scenario": "balanced",
+    "reward": -2993
+  },
+  {
+    "episode": 427,
+    "scenario": "north-rush",
+    "reward": -4021
+  },
+  {
+    "episode": 428,
+    "scenario": "tidal",
+    "reward": -3670
+  },
+  {
+    "episode": 429,
+    "scenario": "balanced",
+    "reward": -2994
+  },
+  {
+    "episode": 430,
+    "scenario": "north-rush",
+    "reward": -3270
+  },
+  {
+    "episode": 431,
+    "scenario": "tidal",
+    "reward": -7967
+  },
+  {
+    "episode": 432,
+    "scenario": "balanced",
+    "reward": -3962
+  },
+  {
+    "episode": 433,
+    "scenario": "north-rush",
+    "reward": -4966
+  },
+  {
+    "episode": 434,
+    "scenario": "tidal",
+    "reward": -3012
+  },
+  {
+    "episode": 435,
+    "scenario": "balanced",
+    "reward": -4038
+  },
+  {
+    "episode": 436,
+    "scenario": "north-rush",
+    "reward": -3758
+  },
+  {
+    "episode": 437,
+    "scenario": "tidal",
+    "reward": -6470
+  },
+  {
+    "episode": 438,
+    "scenario": "balanced",
+    "reward": -2905
+  },
+  {
+    "episode": 439,
+    "scenario": "north-rush",
+    "reward": -5302
+  },
+  {
+    "episode": 440,
+    "scenario": "tidal",
+    "reward": -3902
+  },
+  {
+    "episode": 441,
+    "scenario": "balanced",
+    "reward": -3003
+  },
+  {
+    "episode": 442,
+    "scenario": "north-rush",
+    "reward": -3004
+  },
+  {
+    "episode": 443,
+    "scenario": "tidal",
+    "reward": -2970
+  },
+  {
+    "episode": 444,
+    "scenario": "balanced",
+    "reward": -2983
+  },
+  {
+    "episode": 445,
+    "scenario": "north-rush",
+    "reward": -3027
+  },
+  {
+    "episode": 446,
+    "scenario": "tidal",
+    "reward": -2259
+  },
+  {
+    "episode": 447,
+    "scenario": "balanced",
+    "reward": -2773
+  },
+  {
+    "episode": 448,
+    "scenario": "north-rush",
+    "reward": -3305
+  },
+  {
+    "episode": 449,
+    "scenario": "tidal",
+    "reward": -3369
+  }
+]

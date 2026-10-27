@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "policyFileSha256": "e355f7e29d2938092dd402024c0289f9d1dbceb016177a116255620a4e7e6838",
+  "files": {
+    "policy.json": "e355f7e29d2938092dd402024c0289f9d1dbceb016177a116255620a4e7e6838",
+    "evaluation.json": "5c42ec215b9c8623d9cee41b682ad35bb6b61266efaf20e8a367f01ad97da999",
+    "protocol.json": "85400209359ba98cc5ed94267d90b2336990eec97994817e6617a36080809105",
+    "training.json": "447769349043109c69a9d9c5a7f114a7b9d68ae31e6baab788be956255b66b7c",
+    "parity.json": "c5bc508ab87e096fe807bd87b17fa76e53d2c9273862c58150cc5d50d7c1f031"
+  },
+  "scope": "Byte identity, not external authenticity or model quality"
+}
