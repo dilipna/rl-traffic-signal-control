@@ -1,136 +1,65 @@
-<img width="903" height="889" alt="image" src="https://github.com/user-attachments/assets/f3e13df8-64c3-407e-b4bb-c34196314cc5" />
+# Phase — traffic policy lab
 
-# DilipGPT TrafficRL
+A browser-local, reproducible two-road traffic-control experiment. Compare a frozen tabular Q-policy with a fixed timer and a queue-responsive rule on exactly the same synthetic arrivals. The website runs the actual small simulator in a worker; it is not a prerecorded animation or a cloud model service.
 
-Reinforcement Learning-based Traffic Signal Control system using Q-Learning.
+## What changed
 
-This project demonstrates how an RL agent can learn to dynamically control traffic lights at an intersection to reduce congestion compared to a fixed-time baseline controller.
+The original traffic README was paired with an LLM notebook. Both misplaced notebooks are preserved as inert text in `legacy/`; [provenance](docs/provenance.md) records the source repositories and commits. Only this repository is being redeveloped. No other project or remote repository was renamed.
 
----
+The rebuilt environment counts overflow instead of silently losing vehicles, constrains switching with minimum/maximum green and all-red clearance, separates training/exploration randomness from arrival tapes, and retains stronger baselines and negative results. It is a synthetic model, not a real-road controller or a SUMO/Gymnasium implementation.
 
-## 🚀 Live Demo
+## Run locally
 
-Interactive UI allows:
+Requirements: Python 3.10+ (standard library only), Node 24 and npm. No model, GPU, credentials, paid services or global Python installs.
 
-- Adjusting traffic arrival rates
-- Training the RL agent
-- Comparing against baseline strategy
-- Viewing training reward curve
-- Observing congestion reduction metrics
+```sh
+python -m unittest discover -s tests -v
+python tools/artifact_manifest.py --check
+python tools/verify_evidence.py
+cd web
+npm ci --no-audit --no-fund
+npm test
+node ../tools/check_workflow.mjs
+npm run build
+npm run preview -- --port 3276
+```
 
----
+Visit http://127.0.0.1:3276/. Browser tests are defined for GitHub runners only in this collaboration; no local browser execution or desktop control is used. CI definitions do not establish that CI has run.
 
-## 🧠 Problem Statement
+## Reproduce training
 
-Traditional traffic signals operate on fixed-time schedules, which do not adapt to real-time traffic fluctuations.
+The protocol was committed as `7bdbc37` before the first training/evaluation run. The frozen public evidence is not overwritten automatically.
 
-This project formulates traffic signal control as a Reinforcement Learning problem where the agent learns to:
+```sh
+python -m traffic_lab.experiment --output /new/empty/results-directory
+```
 
-- Minimize total queue length
-- Adapt signal switching decisions dynamically
-- Optimize traffic flow over time
+The directory must not exist. Training uses 450 episodes across balanced, asymmetric and changing-rush scenarios. Arrival seeds 0–449 are disjoint from the 20 evaluation seeds 10000–10019. The primary paired difference is Q minus fixed mean queue, with deterministic 1000-resample bootstrap intervals. All 300 controller/scenario/seed runs are retained. There is one trained policy; no training-seed-variance claim and no hyperparameter tuning on evaluation seeds.
 
----
+## Results and useful failures
 
-## 🏗️ Environment Design
+| Scenario          | Fixed mean queue | Queue rule | Q-policy | Q minus fixed |
+| ----------------- | ---------------: | ---------: | -------: | ------------: |
+| Balanced          |            10.39 |       8.30 |    13.64 |         +3.25 |
+| North-south rush  |            38.44 |      11.39 |    11.30 |        -27.14 |
+| Changing rush     |            32.97 |      10.04 |    12.23 |        -20.74 |
+| Over capacity     |            86.66 |      89.16 |    87.72 |         +1.06 |
+| Reduced discharge |            35.97 |      40.25 |    41.16 |         +5.19 |
 
-### State Representation
+Lower queue is favorable only alongside throughput and overflow. Full per-seed counts, paired intervals and remaining queues are in [evaluation.json](web/public/evidence/evaluation.json). Queue-responsive control beats the learned policy in several cases; no universal RL superiority is claimed. In overload, mean demand is five vehicles/tick but maximum service is three before clearance loss, so no controller can stabilize demand in this model.
 
-State consists of:
-- Discretized NS queue length
-- Discretized EW queue length
-- Current signal phase
+## Product features
 
-Total state space: 5 × 5 × 2
+- Five demand/service scenarios, shareable 32-bit seed and controller focus.
+- Animated schematic with play/pause, reset and keyboard-accessible scrubbing; no automatic playback.
+- Three-controller traces, served/overflow/unfinished accounting, and served-wait qualification.
+- JSON run receipts and Markdown notes tied to the completed run, with arrival and policy hashes.
+- Policy byte-integrity check, failure states, eight-second worker cancellation deadline and explicit retry through a new run.
+- Frozen evaluation explorer with confidence intervals and raw protocol/results downloads.
+- No account, analytics, upload endpoint, cloud state or paid inference.
 
----
+## Engineering evidence
 
-### Actions
+Python and browser engines are checked for exact full-trace parity across all five scenarios and three controllers (3600 frames). `tools/verify_evidence.py` independently recomputes all 300 frozen runs. Vehicle conservation and switching constraints are tested. Raw public artifact hashes are separate from Git release identity. The 11 browser cases are not counted as executed until their GitHub run succeeds.
 
-- 0 → Keep current signal phase
-- 1 → Switch signal phase
-
----
-
-### Reward Function
-
-Reward = − (Total Queue Length)
-
-The agent learns to minimize congestion by maximizing cumulative reward.
-
----
-
-## 🧮 Algorithm Used
-
-Q-Learning (Tabular)
-
-Update rule:
-
-Q(s,a) ← Q(s,a) + α [ r + γ max_a' Q(s',a') − Q(s,a) ]
-
-Where:
-- α = learning rate
-- γ = discount factor
-
----
-
-## 📊 Performance Evaluation
-
-Baseline Controller:
-- Fixed-time switching policy
-
-RL Controller:
-- Learned switching strategy
-
-Example result:
-
-Baseline avg queue: 73.76  
-RL avg queue: 48.69  
-
-The RL policy significantly reduces congestion compared to baseline.
-
----
-
-## 📈 Visualization
-
-- Training reward per episode
-- Before vs After congestion comparison
-
----
-
-## 🛠️ Tech Stack
-
-- Python
-- NumPy
-- Q-Learning
-- Flask (Web UI)
-- Matplotlib (Training visualization)
-- Cloudflare Tunnel (Temporary public deployment)
-
----
-
-## 🎯 Key Learning Outcomes
-
-- Designing custom RL environments
-- Reward engineering
-- State discretization
-- Baseline benchmarking
-- Policy evaluation
-- ML system deployment with UI
-
----
-
-## 🔮 Future Improvements
-
-- Deep Q-Network (DQN)
-- Continuous state representation
-- Multi-intersection coordination
-- Traffic animation visualization
-- Real-time streaming simulation
-
----
-
-## 👨‍💻 Author
-
-Dilip  
-Computer Science student specializing in Artificial Intelligence and Reinforcement Learning.
+[Architecture and decisions](docs/architecture.md) · [Fifteen-idea decisions](docs/fifteen-ideas.md) · [Reproduction and interview guide](docs/case-study.md)

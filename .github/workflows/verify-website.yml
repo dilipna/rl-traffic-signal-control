@@ -1,0 +1,49 @@
+name: Phase hosted website verification
+on:
+  pull_request:
+    types: [labeled]
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  browser:
+    if: github.event.label.name == 'verify-staging' || github.event.label.name == 'verify-production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/github-script@v7
+        id: target
+        with:
+          script: |
+            const {data: pr} = await github.rest.pulls.get({...context.repo, pull_number: context.issue.number});
+            if(pr.head.sha !== context.payload.pull_request.head.sha) throw Error('Stale source');
+            const production = context.payload.label.name === 'verify-production';
+            const prefix = production ? 'Production origin: ' : 'Staging origin: ';
+            const line = (pr.body || '').split(/\r?\n/).find(s=>s.startsWith(prefix));
+            const origin = line?.slice(prefix.length).trim();
+            if(!origin || !(production ? /^https:\/\/phase-traffic-lab(?:-[a-z0-9-]+)?\.vercel\.app$/ : /^https:\/\/phase-traffic-lab-[a-z0-9]+-asmq333\.vercel\.app$/).test(origin)) throw Error('Origin outside project allowlist');
+            core.setOutput('origin', origin);
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
+        env:
+          TEST_ORIGIN: ${{ steps.target.outputs.origin }}
+          RELEASE_SHA: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase-hosted-browser-${{ github.event.label.name }}
+          path: |
+            web/browser-evidence
+            web/test-results

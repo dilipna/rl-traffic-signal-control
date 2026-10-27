@@ -79,8 +79,11 @@ class Intersection:
         if not isinstance(event, (list, tuple)) or len(event) != 3 or any(type(n) is not int or not 0 <= n <= 30 for n in event):
             raise ValueError("Expected bounded integer arrival/service event")
         cfg = self.config
+        state_before = self.state()
+        reason = "clearance" if self.clearance else "minimum-green" if action == 1 and self.age < cfg.minimum_green else "hold"
         switched = False
         if self.clearance == 0 and self.age >= cfg.minimum_green and (action == 1 or self.age >= cfg.maximum_green):
+            reason = "maximum-green" if self.age >= cfg.maximum_green else "controller-request"
             self.phase = 1 - self.phase
             self.age = 0
             self.clearance = cfg.clearance_ticks
@@ -108,7 +111,7 @@ class Intersection:
         self.area += sum(lengths)
         self.max_queue = [max(old, current) for old, current in zip(self.max_queue, lengths)]
         reward = -sum(lengths) - 30 * dropped_now - 2 * int(switched)
-        frame = {"tick": self.tick, "queues": lengths, "phase": self.phase, "allRed": all_red,
+        frame = {"tick": self.tick, "stateBefore": state_before, "requestedAction": action, "decisionReason": reason, "queues": lengths, "phase": self.phase, "allRed": all_red,
                  "greenAge": self.age, "clearanceRemaining": self.clearance, "switched": switched,
                  "arrivals": list(event[:2]), "service": event[2], "served": served_now,
                  "dropped": dropped_now, "reward": reward}
