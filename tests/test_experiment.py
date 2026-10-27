@@ -1,5 +1,5 @@
 import unittest
-from traffic_lab.experiment import train,evaluate,interval
+from traffic_lab.experiment import train,evaluate,interval,mean
 from traffic_lab.core import make_tape,rollout
 
 class ExperimentTests(unittest.TestCase):
@@ -15,6 +15,8 @@ class ExperimentTests(unittest.TestCase):
         self.assertEqual(set(report["summary"][0]["controllers"]),{"q","fixed","queue"})
     def test_evaluation_does_not_train_policy(self):
         q,_=train(self.protocol());before=str(q);evaluate(q,self.protocol());self.assertEqual(before,str(q))
+    def test_mean_has_version_independent_addition_order(self):
+        self.assertEqual(mean([1e16, 1.0, -1e16]), 0.0)
     def test_zero_difference_interval(self):
         self.assertEqual(interval([0,0,0]),[0,0])
 

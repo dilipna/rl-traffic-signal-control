@@ -33,7 +33,12 @@ def train(protocol):
     return q, curve
 
 def mean(values):
-    return sum(values)/len(values)
+    # Fix the addition order: Python 3.12 changed sum(float) compensation.
+    # Match the frozen Python 3.10 arithmetic exactly on every supported runtime.
+    total = 0.0
+    for value in values:
+        total += value
+    return total / len(values)
 
 def interval(values, seed=942):
     rng=Random(seed)

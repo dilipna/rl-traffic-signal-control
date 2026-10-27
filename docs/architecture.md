@@ -38,3 +38,5 @@ The production CSP permits only same-origin scripts, styles, worker and connecti
 ## Deployment plan
 
 Only a static website is needed. The authenticated existing asmq333 inventory has no traffic project. A new free Hobby project requires explicit release approval before creation; no existing project's settings or aliases may be changed. Browser verification runs on GitHub runners, not the owner's computer. Production success requires exact commit identity, public artifact hashes, HTTP checks and actual staged/public browser receipts with screenshots reviewed. Main merge is excluded unless separately authorized.
+
+Summary and bootstrap means use an explicit left-to-right addition order. Python 3.12 changed built-in sum for floats; fixing the order preserves the archived Python 3.10 numeric results exactly without loosening equality checks, rounding results or changing the trained policy.
